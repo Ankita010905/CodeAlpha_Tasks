@@ -1,0 +1,66 @@
+💡 Automatic Light Control Using LDR
+📌 Overview
+
+This project demonstrates a sensor-based IoT simulation where an LED automatically turns ON/OFF based on light intensity using an LDR (Light Dependent Resistor).
+
+🎯 Objective
+
+To understand sensor-based automation
+
+To simulate IoT systems using Tinkercad
+
+To control LED using light intensity
+
+⚙️ Components Used
+
+Arduino UNO
+
+LDR (Light Sensor)
+
+LED
+
+220Ω Resistor
+
+10kΩ Resistor
+
+Breadboard
+
+🔌 Circuit Description
+
+LDR connected to Analog Pin A0
+
+LED connected to Digital Pin 9
+
+Voltage divider used for LDR
+
+💻 Code Functionality
+
+Reads analog value from LDR
+
+Maps value (0–1023 → 0–255)
+
+Controls LED brightness using PWM
+
+🔄 Working Principle
+
+Low light → LED ON / Bright
+
+High light → LED OFF / Dim
+
+📊 Output
+
+LED brightness varies based on light intensity
+
+Sensor values visible in Serial Monitor
+
+🚀 Applications
+
+Smart street lights
+
+Automatic home lighting
+
+Energy-saving systems
+
+📚 Conclusion
+
+This project demonstrates how IoT sensors can automate systems and improve efficiency in real-world applications.
